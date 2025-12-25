@@ -62,16 +62,9 @@ for msg in st.session_state.messages:
 
 import streamlit as st
 import requests
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # ===== Gemini API setup =====
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY not found. Set environment variable.")
-
+GEMINI_API_KEY = "AIzaSyAB6M5DrJz7tHnJEvejIRhfH0Mro0hgWVE"
 GEMINI_MODEL = "gemini-2.0-flash"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
@@ -111,6 +104,7 @@ if word:
             <strong>Notz:</strong> {meaning}
         </div>
     """, unsafe_allow_html=True)
+
 
 
 
