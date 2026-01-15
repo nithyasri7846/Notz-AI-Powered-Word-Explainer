@@ -13,6 +13,18 @@ This project helped me gain hands-on experience with **real-world LLM API integr
 
 ---
 
+## 🎥 Demo Video
+▶️ **Watch the working demo:**  
+👉 *https://youtu.be/io--3_6bIOA?si=AIo1EBaZZvHPqLVQ*  
+
+
+The demo showcases:
+- Entering a word  
+- AI-generated one-line explanation  
+- Real-time response in the Streamlit interface  
+
+---
+
 ## 🔍 Features
 - Enter any word in a simple input field  
 - Sends the query to **Gemini 2.0 Flash**  
