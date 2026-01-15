@@ -1,43 +1,58 @@
 # 📝 Notz – AI-Powered Word Explainer
 
-A lightweight AI web app that delivers **clean, one-sentence explanations** for any word — instantly.
+🔗 **Live App:**  
+https://notz-ai-powered-word-explainer.streamlit.app/
 
 ---
 
 ## 🚀 Overview
-**Notz** is a minimal, fast, and distraction-free word explainer built using **Gemini 2.0 Flash** and **Streamlit**.  
-This project helped me strengthen real-world API integration skills while building an intuitive micro-tool for language understanding.
+**Notz** is a lightweight AI-powered web application that provides **clear, one-sentence explanations** for any word — instantly.
+
+The app is designed to be **fast, minimal, and distraction-free**, focusing purely on understanding words without unnecessary complexity.  
+This project helped me gain hands-on experience with **real-world LLM API integration** and building practical AI micro-tools.
 
 ---
 
 ## 🔍 Features
-- Enter any word  
+- Enter any word in a simple input field  
 - Sends the query to **Gemini 2.0 Flash**  
-- Retrieves a short, clear explanation using the `generateContent` API  
-- Displays the result in a simple, minimal UI  
+- Generates a concise, easy-to-understand explanation  
+- Displays results instantly in a clean UI  
 
 ---
 
 ## 🧠 Tech Stack
 - **Python**  
-- **Streamlit** (User Interface)  
-- **Gemini 2.0 Flash API** (LLM Engine)  
-- **Requests** (API Communication)
+- **Streamlit** – User Interface  
+- **Gemini 2.0 Flash API** – Language Model  
+- **Requests** – API communication  
 
 ---
 
 ## 💡 Key Learning Highlights
-- Working with **LLM inference APIs**  
-- Structuring API requests  
-- Parsing JSON responses  
-- Building clean UI components with Streamlit  
-- Handling latency and error states  
-- Delivering a consistent, minimal user experience  
+- Integrating **LLM inference APIs** into applications  
+- Structuring and sending API requests  
+- Parsing and handling JSON responses  
+- Building clean and responsive UI using Streamlit  
+- Managing latency and error handling gracefully  
+- Designing tools with a **user-first, minimal approach**  
 
 ---
 
 ## 🎯 Purpose
-I built Notz to create a **fast, distraction-free word understanding tool**, and to explore how LLM APIs can be wrapped into practical, lightweight applications.  
-This project is part of my broader journey in developing impactful AI-assisted tools.
+Notz was built to explore how **large language models** can be wrapped into **small, practical tools** that solve a focused problem effectively.
+
+The goal was not feature overload, but **clarity, speed, and usability** — making word understanding effortless.
+
+This project is part of my ongoing journey in building **AI-assisted applications** with real-world relevance.
 
 ---
+
+## 📌 Notes
+- This is a **micro-tool**, intentionally kept simple  
+- Designed for learning, experimentation, and usability  
+- Deployed using **Streamlit Cloud**
+
+---
+
+⭐ *Thank you for checking out Notz!*
